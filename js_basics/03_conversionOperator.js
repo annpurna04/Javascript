@@ -23,3 +23,36 @@ console.log(booleanIsLoggedIn)
  console.log(s)
  console.log(typeof s);
  
+ // ************************ Operations *******************
+
+ let value =9
+ let negvalue= -value
+ console.log(negvalue);
+ 
+
+ //console.log(2+2); 4
+// console.log(2-2); 0
+ //console.log(2*2); 4
+ //console.log(2**3); 8
+ //console.log(2/2); 1
+ //console.log(2%3); 2 
+  
+ //*********** String  ********
+ let name = "hello"
+ let greeting = " Hi"
+ let fullGreeting = name + greeting
+ console.log(fullGreeting);
+ 
+ console.log("1" +2);
+ console.log(1+"2");
+ console.log("1"+2+2);
+ console.log(1+2+"2"); //prefix addition
+ 
+ console.log(true); //true
+ console.log(+true); //1
+ console.log(+""); //0
+ 
+ 
+ 
+ 
+ 
