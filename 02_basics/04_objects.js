@@ -43,10 +43,21 @@ const user = [
     }
 ]
 user[1].email
-console.log(instaUser); //{ id: '966sgg', name: 'Anu', isLoggedIn: false }
-console.log(Object.keys(instaUser)); // keys are stored in array [ 'id', 'name', 'isLoggedIn' ]
-console.log(Object.values(instaUser)); //[ '966sgg', 'Anu', false ]
-console.log(Object.entries(instaUser)); //[ [ 'id', '966sgg' ], [ 'name', 'Anu' ], [ 'isLoggedIn', false ] ]
+//console.log(instaUser); //{ id: '966sgg', name: 'Anu', isLoggedIn: false }
+//console.log(Object.keys(instaUser)); // keys are stored in array [ 'id', 'name', 'isLoggedIn' ]
+//console.log(Object.values(instaUser)); //[ '966sgg', 'Anu', false ]
+//console.log(Object.entries(instaUser)); //[ [ 'id', '966sgg' ], [ 'name', 'Anu' ], [ 'isLoggedIn', false ] ]
  //asking if having value
- console.log(instaUser.hasOwnProperty('isLoggedIn'));
+ //console.log(instaUser.hasOwnProperty('isLoggedIn'));
  
+const course ={
+    coursename:"javascript",
+    price:"999",
+    courseInstructor:"anu"
+}
+//course.courseInstructor
+
+const {courseInstructor:inst} =course //Object Destructre
+console.log(inst);
+
+
