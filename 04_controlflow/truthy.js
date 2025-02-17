@@ -45,4 +45,4 @@ val= null ?? 10 ??20
 
 const iceprice = 100
 iceprice <=80 ? console.log("les thamn 80") : console.log("greater than 80");
-;
+
